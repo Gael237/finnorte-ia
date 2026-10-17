@@ -1,0 +1,10 @@
+{"pregunta": "¿Cuáles son los tiempos de respuesta para un incidente SEV-1?", "esperado": "rb-01", "tipo": "exacto"}
+{"pregunta": "¿Cuáles son los pasos para solucionar un error OOM (Out of Memory)?", "esperado": "rb-07", "tipo": "exacto"}
+{"pregunta": "¿Cuáles son los pasos para renovar un certificado TLS?", "esperado": "rb-04", "tipo": "exacto"}
+{"pregunta": "el sistema se quedó sin memoria ram y se cerró de golpe", "esperado": "rb-07", "tipo": "sinonimo"}
+{"pregunta": "las transferencias están tardando muchísimo en pasar", "esperado": "rb-02", "tipo": "sinonimo"}
+{"pregunta": "el sistema está rechazando las conexiones a la base de datos", "esperado": "rb-03", "tipo": "sinonimo"}
+{"pregunta": "cómo deshacer la actualización que acaba de romper la aplicación", "esperado": "rb-08", "tipo": "sinonimo"}
+{"pregunta": "¿Qué pasos debo seguir si expira el certificado de seguridad?", "esperado": "rb-04", "tipo": "normal"}
+{"pregunta": "¿Qué pasó en el incidente de la caída del pool de conexiones?", "esperado": "pm-01", "tipo": "normal"}
+{"pregunta": "¿Qué secciones debe llevar el documento de postmortem?", "esperado": "pm-03", "tipo": "normal"}

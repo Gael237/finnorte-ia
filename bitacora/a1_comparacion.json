@@ -1,0 +1,162 @@
+[
+  {
+    "pregunta": "¿Cuáles son los tiempos de respuesta para un incidente SEV-1?",
+    "tipo": "exacto",
+    "esperado": "rb-01",
+    "vector_top3": [
+      "rb-01",
+      "pm-02",
+      "pm-03"
+    ],
+    "palabras_top3": [
+      "rb-01",
+      "pm-03",
+      "rb-07"
+    ]
+  },
+  {
+    "pregunta": "¿Cuáles son los pasos para solucionar un error OOM (Out of Memory)?",
+    "tipo": "exacto",
+    "esperado": "rb-07",
+    "vector_top3": [
+      "rb-07",
+      "rb-02",
+      "rb-06"
+    ],
+    "palabras_top3": [
+      "rb-03",
+      "rb-04",
+      "pm-01"
+    ]
+  },
+  {
+    "pregunta": "¿Cuáles son los pasos para renovar un certificado TLS?",
+    "tipo": "exacto",
+    "esperado": "rb-04",
+    "vector_top3": [
+      "rb-04",
+      "pm-02",
+      "rb-02"
+    ],
+    "palabras_top3": [
+      "pm-02",
+      "rb-04"
+    ]
+  },
+  {
+    "pregunta": "el sistema se quedó sin memoria ram y se cerró de golpe",
+    "tipo": "sinonimo",
+    "esperado": "rb-07",
+    "vector_top3": [
+      "rb-07",
+      "pm-01",
+      "pm-02"
+    ],
+    "palabras_top3": [
+      "rb-07",
+      "rb-02"
+    ]
+  },
+  {
+    "pregunta": "las transferencias están tardando muchísimo en pasar",
+    "tipo": "sinonimo",
+    "esperado": "rb-02",
+    "vector_top3": [
+      "rb-02",
+      "rb-03",
+      "rb-05"
+    ],
+    "palabras_top3": [
+      "rb-01",
+      "rb-05",
+      "rb-03"
+    ]
+  },
+  {
+    "pregunta": "el sistema está rechazando las conexiones a la base de datos",
+    "tipo": "sinonimo",
+    "esperado": "rb-03",
+    "vector_top3": [
+      "rb-03",
+      "rb-02",
+      "pm-01"
+    ],
+    "palabras_top3": [
+      "rb-03",
+      "rb-02",
+      "rb-08"
+    ]
+  },
+  {
+    "pregunta": "cómo deshacer la actualización que acaba de romper la aplicación",
+    "tipo": "sinonimo",
+    "esperado": "rb-08",
+    "vector_top3": [
+      "rb-08",
+      "pm-01",
+      "rb-07"
+    ],
+    "palabras_top3": [
+      "rb-01"
+    ]
+  },
+  {
+    "pregunta": "¿Qué pasos debo seguir si expira el certificado de seguridad?",
+    "tipo": "normal",
+    "esperado": "rb-04",
+    "vector_top3": [
+      "rb-04",
+      "pm-02",
+      "rb-08"
+    ],
+    "palabras_top3": [
+      "rb-04",
+      "pm-02"
+    ]
+  },
+  {
+    "pregunta": "¿Qué pasó en el incidente de la caída del pool de conexiones?",
+    "tipo": "normal",
+    "esperado": "pm-01",
+    "vector_top3": [
+      "rb-03",
+      "pm-01",
+      "rb-07"
+    ],
+    "palabras_top3": [
+      "rb-03",
+      "pm-03",
+      "rb-02"
+    ]
+  },
+  {
+    "pregunta": "¿Qué secciones debe llevar el documento de postmortem?",
+    "tipo": "normal",
+    "esperado": "pm-03",
+    "vector_top3": [
+      "pm-03",
+      "pm-02",
+      "rb-08"
+    ],
+    "palabras_top3": [
+      "pm-03",
+      "rb-04"
+    ]
+  },
+  {
+    "resumen": {
+      "vector": {
+        "acierto@1": 9,
+        "acierto@3": 10,
+        "n": 10
+      },
+      "palabras": {
+        "acierto@1": 5,
+        "acierto@3": 6,
+        "n": 10
+      }
+    },
+    "variante": "v5-triage",
+    "embeddings": "gemini"
+  }
+]
